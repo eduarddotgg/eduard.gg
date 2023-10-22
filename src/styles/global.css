@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0 100%;
+        --foreground: 0 0 9%;
+
+        --muted: 0 0 96%;
+        --muted-foreground: 0 0 46%;
+
+        --border: 0 0 80%;
+        --input: 0 0 80%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 0 0 9%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 0 0 9%;
+
+        --primary: 0 0 9%;
+        --primary-foreground: 0 0 100%;
+
+        --secondary: 0 0 96%;
+        --secondary-foreground: 0 0 9%;
+
+        --accent: 0deg 0% 96%;
+        --accent-foreground: 0deg 0% 100%;
+
+        --success: 92deg 51% 51%;
+        --success-foreground: 0 0 9%;
+
+        --warning: 51deg 100% 57%;
+        --warning-foreground: 0 0 9%;
+
+        --danger: 7deg 100% 61%;
+        --danger-foreground: 0 0 100%;
+
+        --info: 212deg 100% 54%;
+        --info-foreground: 0 0 100%;
+
+        --ring: 215 20.2% 65.1%;
+        --radius: 0.5rem;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+*:active,
+*:focus,
+*:hover {
+    outline: none;
+}
+
+html,
+body {
+    position: relative;
+    width: 100%;
+}
+
+body {
+    background-color: #fff;
+    color: #181818;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
